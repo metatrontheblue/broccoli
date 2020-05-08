@@ -1,0 +1,51 @@
+/*******************Tag Selectors********************************/
+/*
+*/
+h1 {
+    color: #f85f73;
+    font-size: 75px;
+}
+body {
+    background-color: #dcedc2;
+}
+p {
+    color: #ff8c94;
+    text-shadow: 10px 10px 5px #f85f73;
+}
+
+img {
+    
+    background-color: #f85f73;
+    border-color: #f85f73;
+    border-radius: 10%;
+    border-style: dashed;
+    border-width: 10px;
+}
+
+
+/*************************Class Selectors**********************************/
+/* recommended, ID selectors are probably best used sparingly
+*/
+.veggie:hover {
+    background-color: darkgreen;
+    border-color: green;
+    border-radius: 75%;
+    border-style: dashed;
+    border-width: 10px;
+    
+}
+.meat:hover   {
+    background-color: darkred;
+    border-color: red;
+    border-radius: 10%;
+    border-style: dashed;
+    border-width: 10px;
+
+}
+/************************ID Selectors**************************************/
+/* This is a unique ID and can only be used per thing. so very similar to internal tag editing
+    tags can have more than one class, but only 1 ID
+*/
+#heading {
+    color: #f85f73;
+}
